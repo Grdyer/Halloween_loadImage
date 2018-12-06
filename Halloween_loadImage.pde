@@ -11,7 +11,8 @@ void setup() {
 }
 
 void draw() {
-  save("Grant_Halloween_png");
+  save("Grant_Halloween_jpg");
+  background(255,255,255);
   image(img,0,0,width/1,height/1);
  
   fill(random(255),random(100),0);
