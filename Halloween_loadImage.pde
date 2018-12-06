@@ -13,7 +13,7 @@ void setup() {
 void draw() {
   save("Grant_Halloween_png");
   image(img,0,0,width/1,height/1);
-  //blendMode(OVERLAY);
+ 
   fill(random(255),random(100),0);
   textAlign(CENTER);
   textSize(40);
