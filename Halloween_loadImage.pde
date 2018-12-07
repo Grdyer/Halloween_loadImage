@@ -6,7 +6,7 @@ int bounce=2;
 
 void setup() {
   size(480,339);
-  img = loadImage("halloween-illustration.jpg");
+  img = loadImage("Halloween.jpg");
   
 }
 
