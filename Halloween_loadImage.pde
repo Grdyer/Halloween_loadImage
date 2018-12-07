@@ -1,3 +1,5 @@
+/*@pjs preload="Halloween.jpg"; */
+
 //Click and Drag your cursor to "carve" the pumpkins
 PImage img;
 int X=250;
@@ -11,7 +13,6 @@ void setup() {
 }
 
 void draw() {
-  save("Grant_Halloween_jpg");
   background(255,255,255);
   image(img,0,0,width/1,height/1);
  
